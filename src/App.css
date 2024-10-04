@@ -1,0 +1,40 @@
+.container {
+  max-width: 1200px; /* Limit the max width for larger screens */
+}
+
+.card {
+  border: none;
+  border-radius: 10px; /* Rounded corners for cards */
+}
+
+.card-title {
+  font-weight: bold; /* Bold title for better emphasis */
+}
+
+.table th, .table td {
+  vertical-align: middle; /* Center align content vertically */
+}
+
+.table th {
+  background-color: #007bff; /* Bootstrap primary color for header */
+  color: white; /* White text for header */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f2f2f2; /* Light gray for odd rows */
+}
+
+.table-responsive {
+  margin-top: 20px; /* Add some margin at the top */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .container {
+      padding: 0 15px; /* Reduce padding for smaller screens */
+  }
+
+  .card {
+      margin-bottom: 15px; /* Space between cards on mobile */
+  }
+}
